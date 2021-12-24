@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+/*Our Developer css*/
+
+.title h1{
+    text-align: center;
+    margin: 100px auto;
+    color: red;
+    border-bottom: 2px solid #ddd;
+
+}
+.team{
+    width: 80%;
+    margin:100px auto;
+    
+}
+.team::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.team h1{
+    color: red;
+}
+.team .team-item{
+    text-align: center;
+    width: 33.33%;
+    float: left;
+    
+}
+.team .team-item img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin:20px auto;
+    
+}
+
+.team-item p{
+    color: green;
+}
+
+
+
+/*Students Marks Shit css*/
+
+h1.stu_header{
+    text-align: center;
+    color: red;
+    border-bottom: 2px solid #ddd;
+}
+.students{
+    
+    margin: 100px auto;
+}
+.students table{
+    width: 1250px;
+    text-align: center;
+    margin: auto;
+}
+table , td, th {
+	border: 1px solid #595959;
+	border-collapse: collapse;
+}
+td, th {
+	padding: 3px;
+	width: 30px;
+	height: 25px;
+}
+th {
+	background: #f0e6cc;
+}
+.even {
+	background: #fbf8f0;
+}
+.odd {
+	background: #fefcf9;
+}
+tr.row {
+    background-color: #cbbfbf;
+}
+
+
+.students table tbody tr:nth-child(odd){
+    background-color: rgba(161, 153, 238, 0.6);
+
+}
+
+.students table tbody tr:nth-child(even){
+    background-color: rgb(140, 255, 105);
+}
+
+
+/*Phone Number List css*/
+
+h1.number{
+    text-align: center;
+    color: red;
+    border-bottom: 2px solid #ddd;
+
+}
+.phone{
+    width: 80%;
+    margin: 100px auto;
+}
+.phone table{
+    width: 100%;
+    text-align: center;
+}
+.phone table thead tr{
+    background-color: gray;
+    padding: 10px !important;
+    
+}
+.phone table tbody tr:nth-child(odd){
+    background-color: #e9e9;
+}
+
+.phone table tbody tr:nth-child(even){
+    background-color: #9e9e;
+}
